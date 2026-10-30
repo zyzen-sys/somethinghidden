@@ -2,8 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  
-  
 }
 
 body {
@@ -14,16 +12,11 @@ body {
   justify-content: center;
   background-color: #1a1a1a;
   color: #ffffff;
-  
-  
-  
 }
 
 .container {
   text-align: center;
   padding: 40px;
-  
-  
 }
 
 .warning {
@@ -33,15 +26,11 @@ body {
   text-transform: uppercase;
   letter-spacing: 4px;
   animation: pulse 1.5s ease-in-out infinite;
-  
-  
 }
 
 @keyframes pulse {
   0%, 100% { opacity: 1; }
   50% { opacity: 0.6; }
-  
-  
 }
 
 .step-btn {
@@ -56,36 +45,27 @@ body {
   border-radius: 6px;
   cursor: pointer;
   transition: background-color 0.2s, transform 0.1s;
-  
-  
 }
 
 .step-btn:hover {
   background-color: #ff0000;
-  
-  
 }
 
 .step-btn:active {
   transform: scale(0.97);
-  
-  
 }
 
 .step-btn[hidden] {
   display: none;
-  
-  
 }
 
 .final-message {
   margin-top: 30px;
   font-size: 1.3rem;
   color: #66ff66;
-  
-  
 }
 
 .final-message[hidden] {
   display: none;
 }
+main.js
